@@ -1,4 +1,5 @@
-# Masari
+# Avalyn
+#[Private] | [Scalable]
 
 Copyright (c) 2017-2019 The Masari Project.
 
