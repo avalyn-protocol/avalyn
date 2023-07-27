@@ -119,7 +119,7 @@ endif()
 
 set_property(TARGET blockchain_import
 	PROPERTY
-	OUTPUT_NAME "masari-blockchain-import")
+	OUTPUT_NAME "avalyn-blockchain-import")
 install(TARGETS blockchain_import DESTINATION bin)
 
 monero_add_executable(blockchain_export
@@ -141,7 +141,7 @@ target_link_libraries(blockchain_export
 
 set_property(TARGET blockchain_export
 	PROPERTY
-	OUTPUT_NAME "masari-blockchain-export")
+	OUTPUT_NAME "avalyn-blockchain-export")
 install(TARGETS blockchain_export DESTINATION bin)
 
 monero_add_executable(blockchain_blackball
@@ -164,7 +164,7 @@ target_link_libraries(blockchain_blackball
 
 set_property(TARGET blockchain_blackball
 	PROPERTY
-	OUTPUT_NAME "masari-blockchain-blackball")
+	OUTPUT_NAME "avalyn-blockchain-blackball")
 install(TARGETS blockchain_blackball DESTINATION bin)
 
 
@@ -187,6 +187,6 @@ target_link_libraries(blockchain_usage
 
 set_property(TARGET blockchain_usage
 	PROPERTY
-	OUTPUT_NAME "masari-blockchain-usage")
+	OUTPUT_NAME "avalyn-blockchain-usage")
 install(TARGETS blockchain_usage DESTINATION bin)
 
