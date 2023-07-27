@@ -129,7 +129,7 @@ One-liner to install all dependencies (Debian/Ubuntu):
 
 Clone recursively to pull-in needed submodule(s):
 
-`$ git clone --recursive https://github.com/masari-project/masari`
+`$ git clone --recursive https://github.com/avalyn-project/avalyn`
 
 If you already have a repo cloned, initialize and update:
 
