@@ -9,10 +9,10 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Development resources
 
-- Web: [getmasari.org](https://getmasari.org)
-- Forum: [forum.getmasari.org](https://forum.getmasari.org)
-- GitHub: [https://github.com/masari-project/masari](https://github.com/masari-project/masari)
-- IRC: [#masari on Freenode](http://webchat.freenode.net/?randomnick=1&channels=%23masari&prompt=1&uio=d4)
+- On the Web:
+- [getmasari.org](https://getmasari.org)
+- 
+- @GitHub: [https://github.com/masari-project/masari](https://github.com/avalyn-project/avalyn)
 
 ## Vulnerability reports
 
