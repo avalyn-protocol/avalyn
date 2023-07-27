@@ -133,7 +133,7 @@ Clone recursively to pull-in needed submodule(s):
 
 If you already have a repo cloned, initialize and update:
 
-`$ cd masari && git submodule init && git submodule update`
+`$ cd avalyn && git submodule init && git submodule update`
 
 ### Build instructions
 
@@ -145,7 +145,7 @@ invokes cmake commands as needed.
 * Install the dependencies
 * Change to the root of the source code directory and build:
 
-        cd masari
+        cd avalyn
         make
 
     *Optional*: If your machine has several cores and enough memory, enable
