@@ -1,5 +1,5 @@
 # Avalyn
-#[Private] | [Scalable]
+# [Simple]|[Scalable]|[Private]
 
 Copyright (c) 2017-2019 The Masari Project.
 
