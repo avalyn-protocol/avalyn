@@ -9,7 +9,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Development resources
 
-- On the Web [ [AVYBlocks](https://avyblocks.com) ]
+- On the Web [ [https://avyblocks.com](https://avyblocks.com) ]
 - 
 - @GitHub: [https://github.com/masari-project/avalyn](https://github.com/avalyn-project/avalyn)
 
