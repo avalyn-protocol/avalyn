@@ -136,46 +136,8 @@ By default, in either dynamically or statically linked builds, binaries target t
 * ```make release-static-win64``` builds binaries on 64-bit Windows portable across 64-bit Windows systems
 * ```make release-static-win32``` builds binaries on 64-bit or 32-bit Windows portable across 32-bit Windows systems
 
-### Cross Compiling
-
-You can also cross-compile static binaries on Linux for Windows and macOS with the `depends` system.
-
-* ```make depends target=x86_64-linux-gnu``` for 64-bit linux binaries.
-* ```make depends target=x86_64-w64-mingw32``` for 64-bit windows binaries.
-  * Requires: `python3 g++-mingw-w64-x86-64 wine1.6 bc`
-  * You also need to run:  
-```update-alternatives --set x86_64-w64-mingw32-g++ x86_64-w64-mingw32-g++-posix && update-alternatives --set x86_64-w64-mingw32-gcc x86_64-w64-mingw32-gcc-posix```
-* ```make depends target=x86_64-apple-darwin11``` for macOS binaries.
-  * Requires: `cmake imagemagick libcap-dev librsvg2-bin libz-dev libbz2-dev libtiff-tools python-dev`
-* ```make depends target=i686-linux-gnu``` for 32-bit linux binaries.
-  * Requires: `g++-multilib bc`
-* ```make depends target=i686-w64-mingw32``` for 32-bit windows binaries.
-  * Requires: `python3 g++-mingw-w64-i686`
-* ```make depends target=arm-linux-gnueabihf``` for armv7 binaries.
-  * Requires: `g++-arm-linux-gnueabihf`
-* ```make depends target=aarch64-linux-gnu``` for armv8 binaries.
-  * Requires: `g++-aarch64-linux-gnu`
-* ```make depends target=riscv64-linux-gnu``` for RISC V 64 bit binaries.
-  * Requires: `g++-riscv64-linux-gnu`
-* ```make depends target=x86_64-unknown-freebsd``` for freebsd binaries.
-  * Requires: `clang-8`
-* ```make depends target=arm-linux-android``` for 32bit android binaries
-* ```make depends target=aarch64-linux-android``` for 64bit android binaries
-
-
 The required packages are the names for each toolchain on apt. Depending on your distro, they may have different names. The `depends` system has been tested on Ubuntu 18.04 and 20.04.
 
-
-# Known Issues
-
-## Protocols
-
-### Socket-based
-
-Because of the nature of the socket-based protocols that drive Avalyn, certain protocol weaknesses are somewhat unavoidable at this time. While these weaknesses can theoretically be fully mitigated, the effort required (the means) may not justify the ends. As such, please consider taking the following precautions if you are a Avalyn node operator:
-
-- Run `avalynd` on a "secured" machine. If operational security is not your forte, at a very minimum, have a dedicated a computer running `avalynd` and **do not** browse the web, use email clients, or use any other potentially harmful apps on your `avalynd` machine. **Do not click links or load URL/MUA content on the same machine**. Doing so may potentially exploit weaknesses in commands which accept "localhost" and "127.0.0.1".
-- If you plan on hosting a public "remote" node, start `avalynd` with `--restricted-rpc`. This is a must.
 
 ### Blockchain-based
 
