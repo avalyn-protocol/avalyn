@@ -194,19 +194,6 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
       0x10 ,0x21, 0xF7, 0x02 , 0x64, 0x06 , 0x11, 0x32, 0x27, 0x13, 0x05, 0x36, 0x14, 0xA6, 0xA3, 0x16
       } }; // Bender's daydream
-  std::string const GENESIS_TX =
-    "01"                                                                  // version
-    "3c"                                                                  // unlock time
-    "01"                                                                  // vin length
-    "ff"                                                                  // vin #1
-    "00"                                                                  // height gen input
-    "01"                                                                  // vout length
-    "ffffffffffff07"                                                      // output #1 amount
-    "02"                                                                  // output 1 type
-    "9b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071"    // output #1 key
-    "21"                                                                  // extra length in bytes
-    "01"                                                                  // extra pubkey tag
-    "fee1de25a95b4c87620b3a60e32065e2f2cfaa244fa12f592954ec257245dda700"; // tx pubkey
 
   uint32_t const GENESIS_NONCE = 16302;
   }
