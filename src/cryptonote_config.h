@@ -38,7 +38,7 @@
 
 #define CRYPTONOTE_MAX_BLOCK_NUMBER                     500000000
 #define CRYPTONOTE_MAX_BLOCK_SIZE                       500000000  // block header blob limit, never used!
-#define CRYPTONOTE_MAX_TX_SIZE                          1000000000
+#define CRYPTONOTE_MAX_TX_SIZE                          1000000
 #define CRYPTONOTE_PUBLIC_ADDRESS_TEXTBLOB_VER          0
 #define CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW            60
 #define CURRENT_TRANSACTION_VERSION                     1
@@ -55,8 +55,8 @@
 #define FINAL_SUBSIDY_PER_MINUTE                        ((uint64_t)300000000000) // 3 * pow(10, 11)
 
 #define CRYPTONOTE_REWARD_BLOCKS_WINDOW                 100
-#define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1    300000
-#define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2    CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1
+#define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1    20000
+#define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2    60000
 #define CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE          600
 #define CRYPTONOTE_DISPLAY_DECIMAL_POINT                12
 // COIN - number of smallest units in one coin
@@ -114,7 +114,7 @@
 #define P2P_LOCAL_WHITE_PEERLIST_LIMIT                  1000
 #define P2P_LOCAL_GRAY_PEERLIST_LIMIT                   5000
 
-#define P2P_DEFAULT_CONNECTIONS_COUNT                   8
+#define P2P_DEFAULT_CONNECTIONS_COUNT                   12
 #define P2P_DEFAULT_HANDSHAKE_INTERVAL                  60           //secondes
 #define P2P_DEFAULT_PACKET_MAX_SIZE                     50000000     //50000000 bytes maximum packet size
 #define P2P_DEFAULT_PEERS_IN_HANDSHAKE                  250
@@ -179,7 +179,7 @@ namespace config
     "9b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071"    // output #1 key
     "21"                                                                  // extra length in bytes
     "01"                                                                  // extra pubkey tag
-    "c54729d8d3697db8befa853a595763ba50cf9c909af059bbeb185578d09aae5e00"; // tx pubkey
+    "fee1de25a95b4c87620b3a60e32065e2f2cfaa244fa12f592954ec257245dda700"; // tx pubkey
 
   uint32_t const GENESIS_NONCE = 16301;
 
@@ -194,6 +194,21 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
       0x10 ,0x21, 0xF7, 0x02 , 0x64, 0x06 , 0x11, 0x32, 0x27, 0x13, 0x05, 0x36, 0x14, 0xA6, 0xA3, 0x16
       } }; // Bender's daydream
+  std::string const GENESIS_TX =
+    "01"                                                                  // version
+    "3c"                                                                  // unlock time
+    "01"                                                                  // vin length
+    "ff"                                                                  // vin #1
+    "00"                                                                  // height gen input
+    "01"                                                                  // vout length
+    "ffffffffffff07"                                                      // output #1 amount
+    "02"                                                                  // output 1 type
+    "9b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071"    // output #1 key
+    "21"                                                                  // extra length in bytes
+    "01"                                                                  // extra pubkey tag
+    "fee1de25a95b4c87620b3a60e32065e2f2cfaa244fa12f592954ec257245dda700"; // tx pubkey
+
+  uint32_t const GENESIS_NONCE = 16302;
   }
 
   namespace stagenet
@@ -207,6 +222,21 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
       0x10 ,0x21, 0xF7, 0x02 , 0x64, 0x06 , 0x11, 0x32, 0x27, 0x13, 0x05, 0x36, 0x14, 0xA6, 0xA3, 0x17
       } }; // Bender's daydream
+  std::string const GENESIS_TX =
+    "01"                                                                  // version
+    "3c"                                                                  // unlock time
+    "01"                                                                  // vin length
+    "ff"                                                                  // vin #1
+    "00"                                                                  // height gen input
+    "01"                                                                  // vout length
+    "ffffffffffff07"                                                      // output #1 amount
+    "02"                                                                  // output 1 type
+    "9b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071"    // output #1 key
+    "21"                                                                  // extra length in bytes
+    "01"                                                                  // extra pubkey tag
+    "eac0d63b1febeef2e815564f001c5f33afdfac8ced46e8525ea9e1c465016ed200"; // tx pubkey
+
+  uint32_t const GENESIS_NONCE = 16303;
   }
 }
 
