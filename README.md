@@ -1,6 +1,6 @@
 # Avalyn
 <img src="https://avyblocks.com/imgs/avy_icon.png" width="250" height="250"><br>
-- `Secure.` - `Private.` - `Untraceable.`
+- `Secure.` -- `Private.` -- `Untraceable.`
 
 Copyright (c) 2023, The Avalyn Project
 Portions Copyright (c) 2012-2013 The Cryptonote developers.
