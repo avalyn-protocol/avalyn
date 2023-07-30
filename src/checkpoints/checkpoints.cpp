@@ -164,15 +164,16 @@ namespace cryptonote
   {
     if (nettype == TESTNET)
     {
-      ADD_CHECKPOINT(0, "94d78dd81d058b367f4d665c038ed7f9eacd28003993ce8483ad0474dc97d229");
+      ADD_CHECKPOINT(0, "cde2a864eb946d169842185fc923fd9e4d699bf54e24f6f972f78e85a8835d94");
 
       return true;
     }
     if (nettype == STAGENET)
     {
+      ADD_CHECKPOINT(0, "942878630495d5371bf9c66fd358f255ab0f44b10bfffd541b7ffac143ff7747");
       return true;
     }
-      ADD_CHECKPOINT(1, "8af1254d43944309ddf81d21dd6f4d7927bcd8591c096bf9d7cc7af9a0baef1a");
+      ADD_CHECKPOINT(1, "49e060152fc50571a1cf7f1e722009c1a1b79e49bb926e1ec152c89436d869c3");
 
     return true;
   }
