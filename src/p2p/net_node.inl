@@ -385,9 +385,8 @@ namespace nodetool
     }
     else if (nettype == cryptonote::STAGENET)
     {
-      full_addrs.insert("67.223.119.64:63730");
-      full_addrs.insert("198.27.80.146:63730");
-      full_addrs.insert("15.204.240.127:63730");
+
+	// Going to address this issue.
     }
     else
     {
