@@ -1,5 +1,5 @@
 # Avalyn
-<img src="https://avyblocks.com/imgs/avy_icon.png" width="250" height="250"></center><br>
+<center><img src="https://avyblocks.com/imgs/avy_icon.png" width="250" height="250"></center><br>
 `Secure, private, untraceable.`
 
 Copyright (c) 2023, The Avalyn Project
