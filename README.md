@@ -1,5 +1,5 @@
 # Avalyn
-<img src="https://avyblocks.com/imgs/avy_icon.png" width="250" height="250">
+<img src="https://avyblocks.com/imgs/avys_icon.png" width="250" height="250">
 
 `Scalable.` `Secure.` `Private.` `Untraceable.`
 
