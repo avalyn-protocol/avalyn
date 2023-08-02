@@ -25,13 +25,13 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 Avalyn is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Avalyn and Bitcoin donations can be made to **donate.avyblocks.com** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively, you can send XMR to the Avalyn donation address via the `donate` command (type `help` in the command-line wallet for details).
 
 Avalyn [AVY] donation address is:  
-`4XstXaoTnnCMTdQhi9SigqfrYxEjnDocKX16xvBiEbtbDbSkYr7YNEL3mS46sdqqLoimRv85ikLUEWgsVWsXccPLMNpAMQL`
+`4fDMpt97JfFVevG1fzy8SnLoE86W4r5CCRirEa6NnAw8JPVjSegxKkif1B1N78GwEwTvUdFxAkH8UDnZqihR7bdU13f4gYv`
 
 Monero [XMR] donation address is:  
-`8AajBYQARWZTEYDi6jyJkL7wnFXoizYFJadwpKd8Pw69FPG3VUmmKaDEnWVAuVEWCNb6zV4q1p8hMcPAtYzw3VbKNuj7wXN`
+`8415u84k8Sr17oeJE1KrrRgyZqwBd1eZzAGBhS2PNA7aPM4NRsPHvq3jPbqj9FHP5EJbzrU2zaVN8AEkTaUci5LDKj7y1nq`
 
-Bitcoin donation address is:  
-`bc1ql4y9r5n7psjhz5xasqplmrjudhqzplagyvm88w`
+Ethereum [ETH] donation address is:  
+`0xea5667bb66bc0b0fde33ed7abe562b82559088a1`
 
 Core development funding and/or some supporting services are also graciously provided by [sponsors](https://www.getmonero.org/community/sponsorships/):
 
