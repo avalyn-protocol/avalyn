@@ -22,7 +22,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Supporting the project
 
-Avalyn is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Avalyn and Bitcoin donations can be made to **donate.avyblocks.com** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively, you can send XMR to the Avalyn donation address via the `donate` command (type `help` in the command-line wallet for details).
+Avalyn is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Avalyn and Bitcoin donations can be made to **donate.avyblocks.com** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively, you can send AVY to the Avalyn donation address via the `donate` command (type `help` in the command-line wallet for details).
 
 Avalyn [AVY] donation address is:  
 `4fDMpt97JfFVevG1fzy8SnLoE86W4r5CCRirEa6NnAw8JPVjSegxKkif1B1N78GwEwTvUdFxAkH8UDnZqihR7bdU13f4gYv`
