@@ -30,6 +30,9 @@ Avalyn [AVY] donation address is:
 Monero [XMR] donation address is:  
 `8415u84k8Sr17oeJE1KrrRgyZqwBd1eZzAGBhS2PNA7aPM4NRsPHvq3jPbqj9FHP5EJbzrU2zaVN8AEkTaUci5LDKj7y1nq`
 
+Bitcoin[BTC] donation address is:  
+`bc1q9k0mv2y35u0yss46hau0qx2dakaj0j5whtxmhw`
+
 Ethereum [ETH] donation address is:  
 `0xea5667bb66bc0b0fde33ed7abe562b82559088a1`
 
