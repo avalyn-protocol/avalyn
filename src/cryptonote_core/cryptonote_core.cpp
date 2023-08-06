@@ -140,7 +140,7 @@ namespace cryptonote
   };
   static const command_line::arg_descriptor<std::string> arg_check_updates = {
     "check-updates"
-  , "Check for new versions of masari: [disabled|notify|download|update]"
+  , "Check for new versions of Avalyn: [disabled|notify|download|update]"
   , "notify"
   };
   static const command_line::arg_descriptor<bool> arg_no_fluffy_blocks  = {
@@ -406,8 +406,8 @@ namespace cryptonote
       if (boost::filesystem::exists(old_files / "blockchain.bin"))
       {
         MWARNING("Found old-style blockchain.bin in " << old_files.string());
-        MWARNING("Masari now uses a new format. You can either remove blockchain.bin to start syncing");
-        MWARNING("the blockchain anew, or use masari-blockchain-export and masari-blockchain-import to");
+        MWARNING("Avalyn now uses a new format. You can either remove blockchain.bin to start syncing");
+        MWARNING("the blockchain anew, or use avalyn-blockchain-export and avalyn-blockchain-import to");
         MWARNING("convert your existing blockchain.bin to the new format. See README.md for instructions.");
         return false;
       }
@@ -1437,7 +1437,7 @@ namespace cryptonote
     {
       std::string main_message;
       if (m_offline)
-        main_message = "The daemon is running offline and will not attempt to sync to the Masari network.";
+        main_message = "The daemon is running offline and will not attempt to sync to the Avalyn network.";
       else
         main_message = "The daemon will start synchronizing with the network. This may take a long time to complete.";
       MGINFO_YELLOW(ENDL << "**********************************************************************" << ENDL
@@ -1495,7 +1495,7 @@ namespace cryptonote
   //-----------------------------------------------------------------------------------------------
   bool core::check_updates()
   {
-    static const char software[] = "masari";
+    static const char software[] = "avalyn";
 #ifdef BUILD_TAG
     static const char buildtag[] = BOOST_PP_STRINGIZE(BUILD_TAG);
     static const char subdir[] = "cli"; // because it can never be simple
