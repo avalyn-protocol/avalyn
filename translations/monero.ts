@@ -2148,7 +2148,7 @@ Otherwise, you prove the reserve of the smallest possible amount above &lt;amoun
 To start synchronizing with the daemon, use the &quot;refresh&quot; command.
 Use the &quot;help&quot; command to see the list of available commands.
 Use &quot;help &lt;command&gt;&quot; to see a command&apos;s documentation.
-Always use the &quot;exit&quot; command when closing masari-wallet-cli to save
+Always use the &quot;exit&quot; command when closing avalyn-wallet-cli to save
 your current session&apos;s state. Otherwise, you might need to synchronize 
 your wallet again (your wallet keys are NOT at risk in any case).
 </source>
@@ -2539,7 +2539,7 @@ Warning: Some input keys being spent are from </source>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1923"/>
-        <source>masari, millisari, microsari, nanosari, picosari</source>
+        <source>avalyn, millisari, microsari, nanosari, picosari</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3667,7 +3667,7 @@ Outputs per *: </source>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="129"/>
-        <source>The newly created transaction will not be relayed to the masari network</source>
+        <source>The newly created transaction will not be relayed to the Avalyn network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3687,7 +3687,7 @@ Outputs per *: </source>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="6787"/>
-        <source>This is the command line masari wallet. It needs to connect to a masari
+        <source>This is the command line Avalyn wallet. It needs to connect to a Avalyn
 daemon to work correctly.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3930,7 +3930,7 @@ daemon to work correctly.</source>
     </message>
     <message>
         <location filename="../src/wallet/wallet_rpc_server.cpp" line="2870"/>
-        <source>This is the RPC masari wallet. It needs to connect to a masari
+        <source>This is the RPC Avalyn wallet. It needs to connect to a Avalyn
 daemon to work correctly.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4038,7 +4038,7 @@ daemon to work correctly.</source>
     </message>
     <message>
         <location filename="../src/wallet/wallet_args.cpp" line="138"/>
-        <source>This is the command line masari wallet. It needs to connect to a masari
+        <source>This is the command line Avalyn wallet. It needs to connect to a Avalyn
 daemon to work correctly.</source>
         <translation type="unfinished"></translation>
     </message>
