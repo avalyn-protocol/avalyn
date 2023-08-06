@@ -730,7 +730,7 @@ namespace cryptonote
     switch (std::atomic_load(&default_decimal_point))
     {
       case 12:
-        return "masari";
+        return "avalyn";
       case 9:
         return "millisari";
       case 6:
