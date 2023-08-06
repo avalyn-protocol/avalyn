@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Masari Project
+// Copyright (c) 2023, The Avalyn Project
 //
 // All rights reserved.
 //
