@@ -1,4 +1,4 @@
-// Copyright (c) 2017-2018, The Masari Project
+// Copyright (c) 2023, The Avalyn Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -52,7 +52,7 @@
 #undef MONERO_DEFAULT_LOG_CATEGORY
 #define MONERO_DEFAULT_LOG_CATEGORY "wallet.simplewallet"
 
-constexpr const char MASARI_DONATION_ADDR[] = "5nYWvcvNThsLaMmrsfpRLBRou1RuGtLabUwYH7v6b88bem2J4aUwsoF33FbJuqMDgQjpDRTSpLCZu3dXpqXicE2uSWS4LUP";
+constexpr const char AVALYN_DONATION_ADDR[] = "4fDMpt97JfFVevG1fzy8SnLoE86W4r5CCRirEa6NnAw8JPVjSegxKkif1B1N78GwEwTvUdFxAkH8UDnZqihR7bdU13f4gYv";
 
 /*!
  * \namespace cryptonote
