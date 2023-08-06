@@ -1138,7 +1138,7 @@ This transaction will unlock on block %llu, in approximately %s days (assuming 2
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="679"/>
-        <source>Current fee is %s masari per kB</source>
+        <source>Current fee is %s Avalyn per kB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1550,7 +1550,7 @@ This transaction will unlock on block %llu, in approximately %s days (assuming 2
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1622"/>
-        <source>Donate &lt;amount&gt; to the development team (donate.getmasari.org).</source>
+        <source>Donate &lt;amount&gt; to the development team (donate.avalyn.cc).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1681,8 +1681,8 @@ If the &quot;tag_description&quot; argument is specified, the tag &lt;tag_name&g
    Set the fee too default/unimportant/normal/elevated/priority.
  confirm-missing-payment-id &lt;1|0&gt;
  ask-password &lt;1|0&gt;
- unit &lt;masari|millisari|microsari|nanosari|picosari&gt;
-   Set the default masari (sub-)unit.
+ unit &lt;avalyn|millisari|microsari|nanosari|picosari&gt;
+   Set the default avalyn (sub-)unit.
  min-outputs-count [n]
    Try to keep at least that many outputs of value at least min-outputs-value.
  min-outputs-value [n]
