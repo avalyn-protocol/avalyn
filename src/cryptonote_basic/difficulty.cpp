@@ -1,4 +1,4 @@
-// Copyright (c) 2017-2018, The Masari Project
+// Copyright (c) 2023, The Avalyn Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -344,11 +344,11 @@ namespace cryptonote {
   // Background:  https://github.com/zawy12/difficulty-algorithms/issues/3
   // Copyright (c) 2017-2018 Zawy (pseudocode)
   // MIT license http://www.opensource.org/licenses/mit-license.php
-  // Copyright (c) 2018 The Masari Project (10x for quicker recoveries, minimum to be symmetric with FTL)
+  // Copyright (c) 2023 The Avalyn Project (10x for quicker recoveries, minimum to be symmetric with FTL)
   // Copyright (c) 2018 Wownero Inc., a Monero Enterprise Alliance partner company
   // Copyright (c) 2018 The Karbowanec developers (initial code)
   // Copyright (c) 2018 Haven Protocol (refinements)
-  // Degnr8, Karbowanec, Masari, Bitcoin Gold, Bitcoin Candy, and Haven have contributed.
+  // Degnr8, Karbowanec, Avalyn, Bitcoin Gold, Bitcoin Candy, and Haven have contributed.
 
   // This algorithm is: next_difficulty = harmonic_mean(Difficulties) * T / LWMA(Solvetimes)
   // The harmonic_mean(Difficulties) = 1/average(Targets) so it is also:
