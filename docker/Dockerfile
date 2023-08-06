@@ -135,11 +135,11 @@ RUN set -ex && \
 COPY --from=builder /src/build/release/bin /usr/local/bin/
 
 # Contains the blockchain
-VOLUME /root/.masari
+VOLUME /root/.avalyn
 
 # Generate your wallet via accessing the container and run:
 # cd /wallet
-# masari-wallet-cli
+# avalyn-wallet-cli
 VOLUME /wallet
 
 EXPOSE 43730
@@ -148,7 +148,7 @@ EXPOSE 43731
 ADD docker/entrypoint.sh /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
 
-CMD [ "masarid", \
+CMD [ "avalynd", \
 		"--p2p-bind-ip=0.0.0.0", \
 		"--p2p-bind-port=43730", \
 		"--rpc-bind-ip=0.0.0.0", \
