@@ -142,16 +142,16 @@ VOLUME /root/.masari
 # masari-wallet-cli
 VOLUME /wallet
 
-EXPOSE 38080
-EXPOSE 38081
+EXPOSE 43730
+EXPOSE 43731
 
 ADD docker/entrypoint.sh /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
 
 CMD [ "masarid", \
 		"--p2p-bind-ip=0.0.0.0", \
-		"--p2p-bind-port=38080", \
+		"--p2p-bind-port=43730", \
 		"--rpc-bind-ip=0.0.0.0", \
-		"--rpc-bind-port=38081", \
+		"--rpc-bind-port=43731", \
 		"--non-interactive", \
 		"--confirm-external-bind" ]
