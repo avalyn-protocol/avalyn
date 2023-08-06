@@ -1,5 +1,5 @@
 #!/bin/bash
-# Modified Dockerfile to bash script for cross-compiling MASARI CLI binaries linux amd64 -> armv7-a
+# Modified Dockerfile to bash script for cross-compiling Avalyn CLI binaries linux amd64 -> armv7-a
 # Tested on Ubuntu 18.04. For libc incompatibility issues, see README
 
 # Must be root to use this tool
@@ -145,8 +145,8 @@ export CMAKE_PREFIX_PATH=${WORKDIR}/ncurses/:${WORKDIR}/libsodium
 export CMAKE_INCLUDE_PATH=${WORKDIR}/zeromq/:${WORKDIR}/libsodium:${WORKDIR}/libsodium/include
 export CMAKE_LIBRARY_PATH=${WORKDIR}/zeromq/lib:${WORKDIR}/libsodium/lib:${WORKDIR}/libsodium
 	
-	git clone --recursive https://github.com/masari-project/masari.git\
-	&& cd masari \
+	git clone --recursive https://github.com/avalyn-project/avalyn.git\
+	&& cd avalyn \
 	# Unorthodox workaround for generate_translations_header failure. Arm version can't run on local machine and the build fails. We generate it beforehand with the host compiler and run cmake twice.
 	for i in {1..2};
     do
