@@ -68,8 +68,8 @@ Now you're ready to chroot into the arm environment.
 You're root, so sudo is no longer needed.
 
     $ apt update && apt install -y git build-essential cmake pkg-config libboost-all-dev libssl-dev libzmq3-dev libunbound-dev libsodium-dev libreadline6-dev libpgm-dev
-    $ git clone --recursive https://github.com/masari-project/masari.git
-    $ cd masari
+    $ git clone --recursive https://github.com/avalyn-project/avalyn.git
+    $ cd avalyn
 
 and then:
 
@@ -79,7 +79,7 @@ For armv7:
 For armv6:
 ``$ make release-static-linux-armv6 -j y`` (y is the number of cores your processor has, this is optional)
 
-If there are no errors, the binaries should be located at : ``/home/masari/build/release/bin`` within the chroot image and at the same time at ``/home/your_username/workspace/masari/build/release/bin``(outside the chroot) if the what was described in the examples was used.
+If there are no errors, the binaries should be located at : ``/home/avalyn/build/release/bin`` within the chroot image and at the same time at ``/home/your_username/workspace/avalyn/build/release/bin``(outside the chroot) if the what was described in the examples was used.
 
 ## Cleanup
 After you finish it's recommended to unmount everything again:
