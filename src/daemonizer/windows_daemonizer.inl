@@ -1,4 +1,4 @@
-// Copyright (c) 2017-2018, The Masari Project
+// Copyright (c) 2023, The Avalyn Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -176,7 +176,7 @@ namespace daemonizer
     }
     else // interactive
     {
-      //LOG_PRINT_L0("Masari '" << MONERO_RELEASE_NAME << "' (v" << MONERO_VERSION_FULL);
+      //LOG_PRINT_L0("Avalyn '" << MONERO_RELEASE_NAME << "' (v" << MONERO_VERSION_FULL);
       return executor.run_interactive(vm);
     }
 
