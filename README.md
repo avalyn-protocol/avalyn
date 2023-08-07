@@ -12,7 +12,6 @@ Copyright (c) 2023, The Avalyn Project
   - [About this project](#about-this-project)
   - [Supporting the project](#supporting-the-project)
   - [Compiling Avalyn from source](#compiling-avalyn-from-source)
-    - [Dependencies](#dependencies)
 
 ## Development resources
 
@@ -30,7 +29,7 @@ Avalyn [AVY] donation address is:
 Monero [XMR] donation address is:  
 `8415u84k8Sr17oeJE1KrrRgyZqwBd1eZzAGBhS2PNA7aPM4NRsPHvq3jPbqj9FHP5EJbzrU2zaVN8AEkTaUci5LDKj7y1nq`
 
-Bitcoin[BTC] donation address is:  
+Bitcoin [BTC] donation address is:  
 `bc1q9k0mv2y35u0yss46hau0qx2dakaj0j5whtxmhw`
 
 Ethereum [ETH] donation address is:  
@@ -100,21 +99,6 @@ invokes cmake commands as needed.
 * Add `PATH="$PATH:$HOME/avalyn/build/release/bin"` to `.profile`
 
 * Run Avalyn with `avalynd --detach`
-
-### Building portable statically linked binaries
-
-By default, in either dynamically or statically linked builds, binaries target the specific host processor on which the build happens and are not portable to other processors. Portable binaries can be built using the following targets:
-
-* ```make release-static-linux-x86_64``` builds binaries on Linux on x86_64 portable across POSIX systems on x86_64 processors
-* ```make release-static-linux-i686``` builds binaries on Linux on x86_64 or i686 portable across POSIX systems on i686 processors
-* ```make release-static-linux-armv8``` builds binaries on Linux portable across POSIX systems on armv8 processors
-* ```make release-static-linux-armv7``` builds binaries on Linux portable across POSIX systems on armv7 processors
-* ```make release-static-linux-armv6``` builds binaries on Linux portable across POSIX systems on armv6 processors
-* ```make release-static-win64``` builds binaries on 64-bit Windows portable across 64-bit Windows systems
-* ```make release-static-win32``` builds binaries on 64-bit or 32-bit Windows portable across 32-bit Windows systems
-
-The required packages are the names for each toolchain on apt. Depending on your distro, they may have different names. The `depends` system has been tested on Ubuntu 18.04 and 20.04.
-
 
 ### Blockchain-based
 
