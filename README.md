@@ -12,7 +12,6 @@ Copyright (c) 2023, The Avalyn Project
   - [About this project](#about-this-project)
   - [Supporting the project](#supporting-the-project)
   - [Compiling Avalyn from source](#compiling-avalyn-from-source)
-    - [Dependencies](#dependencies)
 
 ## Development resources
 
