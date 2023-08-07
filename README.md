@@ -2,7 +2,7 @@
 
 <img src="https://avyblocks.com/imgs/avy_iconv2.png" width="250" height="250">
 
-`Scalable.` `Secure.` `Private.` `Untraceable.` `Fungible`
+`Scalable.` `Secure.` `Private.` `Untraceable.` `Fungible.`
 
 Copyright (c) 2023, The Avalyn Project
 
