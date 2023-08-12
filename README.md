@@ -1,6 +1,6 @@
 # Avalyn
 
-<img src="https://avyblocks.com/imgs/git-avalyn.png" width="582" height="202">
+<img src="https://avyblocks.com/imgs/git-avalyn.png" width="500" height="175">
 
 `Scalable.` `Secure.` `Private.` `Untraceable.` `Fungible.` `Decentralized.`
 
