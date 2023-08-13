@@ -84,7 +84,9 @@ If you already have a repo cloned, initialize and update:
 `
 cd avalyn && git submodule init && git submodule update
 `
+
 Now, simply use `make` to build Avalyn.
+
 *Note*: If there are submodule differences between branches, you may need 
 to use `git submodule sync && git submodule update` after changing branches
 to build successfully.
