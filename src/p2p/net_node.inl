@@ -382,18 +382,33 @@ namespace nodetool
       full_addrs.insert("67.223.119.64:53730");
       full_addrs.insert("198.27.80.146:53730");
       full_addrs.insert("15.204.240.127:53730");
+      full_addrs.insert("67.223.119.65:53730");
+      full_addrs.insert("51.81.70.195:53730");
+      full_addrs.insert("135.148.142.176:53730");
+      full_addrs.insert("51.81.70.196:53730");
+      full_addrs.insert("135.148.142.177:53730");
     }
     else if (nettype == cryptonote::STAGENET)
     {
       full_addrs.insert("67.223.119.64:63730");
       full_addrs.insert("198.27.80.146:63730");
       full_addrs.insert("15.204.240.127:63730");
+      full_addrs.insert("67.223.119.65:63730");
+      full_addrs.insert("51.81.70.195:63730");
+      full_addrs.insert("135.148.142.176:63730");
+      full_addrs.insert("51.81.70.196:63730");
+      full_addrs.insert("135.148.142.177:63730");
     }
     else
     {
       full_addrs.insert("67.223.119.64:43730");
       full_addrs.insert("198.27.80.146:43730");
       full_addrs.insert("15.204.240.127:43730");
+      full_addrs.insert("67.223.119.65:43730");
+      full_addrs.insert("51.81.70.195:43730");
+      full_addrs.insert("135.148.142.176:43730");
+      full_addrs.insert("51.81.70.196:43730");
+      full_addrs.insert("135.148.142.177:43730");
     }
     return full_addrs;
   }
