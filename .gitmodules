@@ -13,4 +13,3 @@
 [submodule "external/supercop"]
 	path = external/supercop
 	url = https://github.com/monero-project/supercop
-	branch = monero
